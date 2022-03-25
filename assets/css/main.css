@@ -97,3 +97,13 @@ header {
 .active {
     color: rgb(43, 43, 182);
 }
+
+@media (max-width: 44rem) {
+    #navbar {
+        display: none;
+    }
+    #main-doc {
+        margin-left: 0;
+        width: 100%;
+    }
+}
